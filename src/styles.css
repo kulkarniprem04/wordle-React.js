@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+input {
+  width: 20px;
+  text-transform: capitalize;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.in-correct {
+  background-color: yellow;
+}
